@@ -1,0 +1,9 @@
+preload = ~/Personal/Github/lazywin/wallpapers/8.jpg
+
+#set the default wallpaper(s) seen on initial workspace(s) --depending on the number of monitors used
+wallpaper = eDP-1, ~/Personal/Github/lazywin/wallpapers/8.jpg
+
+#fully disable ipc
+# ipc = off
+
+

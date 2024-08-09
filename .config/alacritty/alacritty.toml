@@ -1,0 +1,40 @@
+live_config_reload = true
+working_directory = "None"
+
+# Themes --
+import = [ 
+  # -- Themes --
+  #"~/.config/alacritty/catppuccin-macchiato.toml", 
+  "~/.config/alacritty/nordic.toml", 
+  # "~/.config/alacritty/xcad.toml",
+  # "~/.config/alacritty/dracula.toml",
+  # "~/.config/alacritty/catppuccin-mocha.toml",
+  # "~/.config/alacritty/solarized_dark.toml",
+  # "~/.config/alacritty/solarized-osaka.toml",
+]
+
+[window]
+decorations = "none"
+dynamic_title = true
+
+[cursor.style]
+shape= "Beam"
+blinking = "On"
+
+[colors]
+#transparent_background_colors = true
+draw_bold_text_with_bright_colors = true
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+normal.style = "Regular"
+size = 14.0
+
+[font.bold]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+

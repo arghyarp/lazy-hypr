@@ -1,0 +1,7 @@
+[default]
+duration = "1m"
+mode = "center"
+sorting = "random"
+
+[eDP-1]
+path = "/home/arghya/Personal/Github/lazy-walls-nord"
