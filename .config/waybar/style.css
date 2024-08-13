@@ -14,14 +14,14 @@ window#waybar {
 }
 
 window > box{
-	/*
 	margin: 6px;
 	margin-top: 3px;
 	margin-bottom: 0px;
 	border-radius: 4px;
 	background: rgba(21, 24, 30, 0.85);
-	*/
+	/*
 	background: rgb(21, 24, 30);
+	*/
 	
 	
 }
