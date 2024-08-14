@@ -1,0 +1,5 @@
+start=1500.009093
+volume=70.721039
+af=@acompressor:acompressor=knee=2dB:makeup=8dB:attack=20:release=250:threshold=-25dB:ratio=3
+sub-pos=103.000000
+sub-scale=0.400000

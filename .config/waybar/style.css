@@ -107,6 +107,7 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
+#bluetooth,
 #mpd {
     padding: 0 10px;
     color: #cccccc;
@@ -292,4 +293,9 @@ label:focus {
 }
 
 #privacy-item.audio-out {
+}
+
+
+#bluetooth {
+    color: @fg
 }

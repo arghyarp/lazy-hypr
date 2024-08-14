@@ -1,0 +1,155 @@
+/* Popup menus and context menus */
+
+@import "popups-contents.css";
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+
+/* Style menus */
+menupopup {
+	-moz-appearance: none !important;
+	background: var(--nordic-menu-background) !important;
+	border-radius: 2px;
+	color: var(--nordic-toolbar-color) !important;
+}
+#PlacesToolbar menupopup {
+	background: var(--nordic-popover-background) !important;
+}
+.menupopup-arrowscrollbox {
+	background: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+}
+
+menuitem, menupopup menu {
+	-moz-appearance: none !important;
+	color: var(--nordic-popover-color);
+}
+
+menuitem[type="checkbox"] image, menuitem[type="radio"] image {
+	visibility: visible !important;
+}
+
+menuitem[disabled="true"]:hover, menupopup menu[disabled="true"]:hover {
+	background: transparent !important;
+}
+
+/* Style popovers */
+.panel-arrowcontent,
+.panel-header, .PanelUI-subView,
+.panel-subview-body, #widget-overflow-mainView, #protections-popup-footer,
+panelview {
+	border: 0 !important;
+	background: transparent !important;
+}
+.panel-arrowcontent {
+	background: var(--arrowpanel-background) !important;
+	border: 1px solid !important;
+	border-color: var(--nordic-popover-border-color) !important;
+	border-radius: 2px !important;
+	color: var(--nordic-toolbar-color) !important;
+}
+.panel-arrow {    
+	fill: var(--arrowpanel-background) !important;
+	stroke: var(--nordic-popover-border-color) !important;
+	display: -moz-inline-box !important;
+}
+panel:not([remote]), #BMB_bookmarksPopup {
+	--arrowpanel-background: var(--nordic-popover-background) !important;
+	--arrowpanel-border-color: var(--nordic-popover-border-color) !important;
+}
+.panel-no-padding panelview, .panel-no-padding > .panel-subview-body, .panel-no-padding > .panel-header {
+	padding: var(--panel-padding) !important;
+}
+.panel-no-padding > .panel-header {
+	padding-bottom: 0 !important;
+}
+panel[type="arrow"].panel-no-padding::part(content) {
+	padding: var(--panel-padding) !important;
+}
+
+
+.panel-header {
+	position: relative !important;
+}
+.panel-header + toolbarseparator,
+#identity-popup-mainView-panel-header + toolbarseparator,
+#permission-popup-mainView-panel-header + toolbarseparator,
+#protections-popup-mainView-panel-header-section + toolbarseparator {
+	display: none !important;
+}
+.panel-footer {
+	background-color: transparent !important;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 0px !important;
+}
+.panel-footer.panel-footer-menulike {
+	border-top: 0 !important;
+	margin-top: 8px !important;
+}
+.panel-footer toolbarseparator {
+	display: none !important;
+}
+.proton-zap {
+	border-image: unset !important;
+}
+
+.panel-subview-body {
+	padding: 0 !important;
+}
+.panel-subview-footer {
+	margin-top: 10px !important;
+}
+
+/* Style popovers menu buttons */
+
+menuitem, menupopup menu,
+panelview .subviewbutton:not(#appMenu-fxa-label2),
+panelview .toolbarbutton-1,
+.protections-popup-footer-button,
+.protections-popup-category,
+.identity-popup-content-blocking-category,
+#PlacesToolbar .bookmark-item,
+#downloadsPanel-mainView .download-state {
+	-moz-appearance: none !important;
+	border-radius: 2px !important;	
+	color: var(--nordic-toolbar-color) !important;
+}
+.subviewbutton,
+.protections-popup-footer-button,
+.protections-popup-category,
+.identity-popup-content-blocking-category,
+#PlacesToolbar menupopup[placespopup="true"] .bookmark-item,
+.openintabs-menuitem,
+.widget-overflow-list .toolbarbutton-1 {
+	margin: 0 !important;
+}
+
+.subviewbutton[shortcut]:after {
+	opacity: 0.5 !important;
+}
+
+.bookmark-item .menu-right {
+	fill-opacity: 1 !important;
+}
+
+/* Menu buttons disabled */
+menuitem[disabled="true"], menupopup menu[disabled="true"],
+.subviewbutton[disabled="true"], .toolbarbutton-1[disabled="true"],
+.protections-popup-category[disabled="true"],
+.identity-popup-content-blocking-category[disabled="true"] {
+	opacity: .5 !important;
+}
+menuitem[disabled="true"][_moz-menuactive], menupopup menu[disabled="true"][_moz-menuactive] {
+	background: transparent !important;
+}
+
+/* Style popover separators */
+toolbarseparator, menuseparator {
+	border-color: var(--nordic-popover-separator-color) !important;
+}
+toolbarseparator:not([orient="vertical"]) {
+	margin: 8px 0 !important;
+}
+toolbarseparator[orient="vertical"] {
+	margin: 0 3px !important;
+}

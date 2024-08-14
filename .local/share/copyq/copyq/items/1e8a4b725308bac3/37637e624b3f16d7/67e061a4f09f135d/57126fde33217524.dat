@@ -1,0 +1,34 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><div class="votecell post-layout--left"><div class="js-voting-container d-flex jc-center fd-column ai-center gs4 fc-black-300" data-post-id="1170073" data-referrer="None"><a class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" href="https://askubuntu.com/posts/1170073/timeline" data-shortcut="T" data-ks-title="timeline" data-controller="s-tooltip" data-s-tooltip-placement="right" aria-label="Timeline" aria-describedby="--stacks-s-tooltip-7bvcgt19"><svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" width="19" height="18" viewBox="0 0 19 18"></svg></a>
+
+</div>
+
+        </div>
+
+        
+
+<div class="answercell post-layout--right">
+    
+    <div class="s-prose js-post-body" itemprop="text">
+<p>Check what's listening on port 53 (domain) with:</p>
+<pre><code>sudo ss -lp "sport = :domain"
+</code></pre>
+<p>Disable any service that is running on this port. It's usually <code>systemd-resolved</code>.</p>
+<p>Here I make sure that you have stopped the <code>systemd-resolved</code> service.
+I'm going to also <code>mask</code> it so it doesn't auto start on reboot.</p>
+<pre><code>sudo systemctl stop systemd-resolved
+sudo systemctl disable systemd-resolved
+sudo systemctl mask systemd-resolved
+</code></pre>
+<p>To undo what you did:</p>
+<pre><code>sudo systemctl unmask systemd-resolved
+sudo systemctl enable systemd-resolved
+sudo systemctl start systemd-resolved
+</code></pre>
+<p>Also <code>sudo update-rc.d systemd-resolved disable</code> might also stop it from auto starting on boot but I haven't tested it. Use <code>defaults</code> instead of <code>disable</code> to undo the command.</p>
+<p>Note that systemd-resolved is an important component for name 
+resolution. If you don't have any name resolution service properly 
+running and configured you might encounter <code>Temporary failure in name resolution</code>.</p>
+<hr>
+<p>Or you can change what port dnsmasq listens on, by editing the config file:</p>
+<pre><code>sudo nano /etc/dnsmasq.conf
+</code></pre></div></div>

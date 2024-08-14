@@ -1,0 +1,58 @@
+{
+    "com.github.friday.ulauncher-clipboard": {
+        "id": "com.github.friday.ulauncher-clipboard",
+        "url": "https://github.com/friday/ulauncher-clipboard",
+        "updated_at": "2024-08-14T08:22:36.080975",
+        "last_commit": "dde8e6c9db80b0c9301ebdc9b13c4383b4789bc8",
+        "last_commit_time": "2023-11-27T22:23:17"
+    },
+    "com.github.tchar.ulauncher-albert-calculate-anything": {
+        "id": "com.github.tchar.ulauncher-albert-calculate-anything",
+        "url": "https://github.com/tchar/ulauncher-albert-calculate-anything",
+        "updated_at": "2024-08-14T08:22:50.132880",
+        "last_commit": "037965a44e6f6f496e7ad71ec1651b9edfcde32d",
+        "last_commit_time": "2024-05-29T21:57:26"
+    },
+    "com.github.hillaryychan.ulauncher-fzf": {
+        "id": "com.github.hillaryychan.ulauncher-fzf",
+        "url": "https://github.com/hillaryychan/ulauncher-fzf",
+        "updated_at": "2024-08-14T08:23:14.497773",
+        "last_commit": "e8137dae6448041fc53ae418263501b068857073",
+        "last_commit_time": "2023-05-16T12:35:35"
+    },
+    "com.github.nastuzzisamy.ulauncher-custom-scripts": {
+        "id": "com.github.nastuzzisamy.ulauncher-custom-scripts",
+        "url": "https://github.com/NastuzziSamy/ulauncher-custom-scripts",
+        "updated_at": "2024-08-14T08:24:45.099201",
+        "last_commit": "7a68cbafb4acc01fed340d0d2ae99a6701724b31",
+        "last_commit_time": "2022-11-21T21:19:31"
+    },
+    "com.github.kuenzelit.ulauncher-firefox-bookmarks": {
+        "id": "com.github.kuenzelit.ulauncher-firefox-bookmarks",
+        "url": "https://github.com/KuenzelIT/ulauncher-firefox-bookmarks",
+        "updated_at": "2024-08-14T08:24:56.876004",
+        "last_commit": "77f1de0adfc2e79ce767f645ae8ad0a0dda2783e",
+        "last_commit_time": "2019-12-07T17:27:46"
+    },
+    "com.github.elken.terminal-runner": {
+        "id": "com.github.elken.terminal-runner",
+        "url": "https://github.com/elken/Terminal-Runner",
+        "updated_at": "2024-08-14T08:25:14.703654",
+        "last_commit": "6807ebe6047462bcce6063c63228eddcb8c6b481",
+        "last_commit_time": "2020-02-22T23:04:04"
+    },
+    "com.github.ybotspawn.keep-ulauncher": {
+        "id": "com.github.ybotspawn.keep-ulauncher",
+        "url": "https://github.com/ybotspawn/Keep-ULauncher",
+        "updated_at": "2024-08-14T08:28:32.764458",
+        "last_commit": "b14834b4ba6e6b52d8bdcdcbe6e9f8a38ee399bb",
+        "last_commit_time": "2019-12-02T03:55:12"
+    },
+    "com.github.abhishekmj303.ulauncher-playerctl": {
+        "id": "com.github.abhishekmj303.ulauncher-playerctl",
+        "url": "https://github.com/abhishekmj303/ulauncher-playerctl",
+        "updated_at": "2024-08-14T08:29:17.848662",
+        "last_commit": "5f52e6c949ee9793ba60b5385df4744b134c3369",
+        "last_commit_time": "2023-06-23T15:13:13"
+    }
+}

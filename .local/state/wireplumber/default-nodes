@@ -1,0 +1,2 @@
+[default-nodes]
+default.configured.audio.sink=alsa_output.usb-UC02_UC02_UC02-00.analog-stereo

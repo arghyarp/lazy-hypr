@@ -1,0 +1,97 @@
+/*=====================================================================
+===================== B O O K M A R K S   B A R =======================
+=====================================================================*/
+
+/* Set bookmarks bar items padding */
+#PlacesToolbarItems > .bookmark-item {
+  /*padding-block: 2px !important;*/
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+/*=====================================================================
+============================ S E A R C H   B A R ======================
+=====================================================================*/
+
+#urlbar-input-container,
+#searchbar,
+#urlbar-container,
+#urlbar {
+  border-radius: var(--firefoxcss-border-radius) !important;
+}
+
+#urlbar .urlbarView-body-inner {
+  border-top: 0px !important;
+}
+
+#urlbar:not(.megabar):not([focused="true"]),
+#urlbar:not(.megabar):not([focused="true"]):hover {
+  border-bottom: transparent;
+}
+
+#urlbar .urlbar-input-box {
+  text-align: center;
+}
+
+#urlbar {
+  --autocomplete-popup-highlight-background: hsl(240, 2%, 26%) !important;
+  border: 0 !important;
+  background-color: var(--firefoxcss-url-bar-bg-color) !important;
+  border-bottom: 1px solid var(--firefoxcss-url-border-bottom-color) !important;
+  border-top: 1px solid var(--firefoxcss-url-border-top-color) !important;
+  box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.35) !important;
+}
+
+.urlbarView:not([noresults]) > .search-one-offs:not([hidden]) {
+  border-top: none !important;
+}
+
+/* Megabar */
+#urlbar[breakout] {
+  height: auto !important;
+}
+
+#urlbar[breakout][breakout-extend][open] {
+  background-color: var(--firefoxcss-url-breakout-bar-bg-color) !important;
+  border-bottom: 1px solid var(--firefoxcss-url-breakout-border-bottom-color) !important;
+  border-top: 1px solid var(--firefoxcss-url-border-top-color) !important;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px !important;
+}
+
+#urlbar[breakout][breakout-extend] > #urlbar-input-container,
+#urlbar-input-container {
+  height: var(--urlbar-height) !important;
+  padding-block: 0px !important;
+  padding-inline: 0px !important;
+  transition: none !important;
+}
+
+#urlbar[breakout][breakout-extend] {
+  top: calc(
+    (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+  ) !important;
+  left: 0 !important;
+  width: 100% !important;
+}
+
+/* Styling Extra search bar that you can add to firefox */
+#search-container #searchbar {
+  outline: 0 !important;
+  border: 0 !important;
+  border-radius: var(--firefoxcss-border-radius) !important;
+  background-color: var(--firefoxcss-url-bar-bg-color) !important;
+  border-bottom: 1px solid var(--firefoxcss-url-border-bottom-color) !important;
+  border-top: 1px solid var(--firefoxcss-url-border-top-color) !important;
+  box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.35) !important;
+}
+
+#search-container #searchbar .search-go-button,
+#urlbar-go-button {
+  list-style-image: url("image/right-arrow.svg") !important;
+}
+
+#PopupSearchAutoComplete {
+  --panel-background: var(--firefoxcss-url-breakout-bar-bg-color) !important;
+}
