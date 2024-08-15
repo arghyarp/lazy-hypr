@@ -1,3 +1,0 @@
-start=54.263000
-volume=62.799213
-af=@acompressor:acompressor=attack=20:release=250:threshold=-25dB:ratio=3:knee=2dB:makeup=8dB
