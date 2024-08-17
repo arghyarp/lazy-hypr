@@ -8,5 +8,7 @@ orchis-theme
 ntfs-3g
 noto-fonts-cjk
 otf-fonts-awesome
-
+looking-glass-rc
+looking-glass-rc-module-dkms
+looking-glass-rc-debug
 

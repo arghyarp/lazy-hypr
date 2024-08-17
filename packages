@@ -43,3 +43,10 @@ nvidia-settings
 libva
 lib32-nvidia-utils
 
+qemu-desktop
+libvirt
+edk2-ovmf
+virt-manager
+ebtables
+dnsmasq
+
