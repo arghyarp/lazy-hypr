@@ -105,13 +105,13 @@
     "1": "一",
     "2": "二",
     "3": "三",
-    "4": "四",
-    "5": "五",
-    "6": "六",
-    "7": "七",
-    "8": "八",
-    "9": "九",
-    "10": "十",
+    "4": "4",
+    "5": "5",
+    "6": "6",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "10": "10",
     "urgent": "  ",
     //"active": "",
     "default": ""
@@ -128,7 +128,7 @@
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 80,
+        "critical-threshold": 85,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}° C"
     },
@@ -185,7 +185,7 @@
 	"on-scroll-down": "playerctl previous",
         "format-icons": {
             "spotify": "",
-            "default": "🎜"
+            "default": ""
         },
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
@@ -199,7 +199,6 @@
 			"shutdown": "systemctl poweroff",
 			"reboot": "reboot",
 			"suspend": "systemctl suspend",
-			"hibernate": "systemctl hibernate"
 		}
     }
 }
