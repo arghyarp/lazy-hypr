@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Shutdown",
+        "description": "Shutdown the system",
+        "icon": null,
+        "script": "systemctl poweroff",
+        "default_arguments": [
+            
+        ]
+    }
+    {
+        "name": "Sleep",
+        "description": "Sleep mode",
+        "icon": null,
+        "script": "systemctl suspend",
+        "default_arguments": [
+            
+        ]
+    }
+    {
+        "name": "Reboot",
+        "description": "Reboot Linux",
+        "icon": null,
+        "script": "reboot",
+        "default_arguments": [
+            
+        ]
+    }
+    {
+        "name": "Power Mode",
+        "description": "Power governer mode",
+        "icon": null,
+        "script": "auto-cpufreq --force powersave",
+        "default_arguments": [
+            
+        ]
+    }
+    {
+        "name": "Peformance Mode",
+        "description": "Performance governer mode",
+        "icon": null,
+        "script": "auto-cpufreq --force performance",
+        "default_arguments": [
+            
+        ]
+    }
+    {
+        "name": "Reset Mode",
+        "description": "Reset governer mode",
+        "icon": null,
+        "script": "auto-cpufreq --force reset",
+        "default_arguments": [
+            
+        ]
+    }
+]

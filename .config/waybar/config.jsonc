@@ -17,6 +17,7 @@
     "modules-right": [
 	"wireplumber",
         "temperature",
+        "custom/wl-gammarelay-temperature",
         "tray",
         "battery"
     ],
@@ -93,10 +94,9 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-	"format": "{:%H:%M %a %b %e  }",
-        "format-alt": "{:%Y-%m-%d}"
+	"format": "{:%I:%M %a %b %e }",
+        "timezone": "Asia/Calcutta",
     },
     "hyprland/workspaces": {
   "format": "{icon}",
@@ -189,6 +189,14 @@
         },
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+        "custom/wl-gammarelay-temperature": {
+        "format": " {}K ",
+        "on-click": " busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Temperature q 5500",
+        "on-click-right": " busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Temperature q 3350",
+        "exec": "wl-gammarelay-rs watch {t}",
+        "on-scroll-up": "busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateTemperature n +200",
+        "on-scroll-down": "busctl --user -- call rs.wl-gammarelay / rs.wl.gammarelay UpdateTemperature n -200"
     },
     "custom/power": {
         "format" : "⏻ ",

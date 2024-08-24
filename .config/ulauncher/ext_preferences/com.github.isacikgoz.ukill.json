@@ -1,0 +1,10 @@
+{
+  "triggers": {
+    "ukiller_killall": {
+      "keyword": "killall"
+    },
+    "ukiller_kw": {
+      "keyword": "kill"
+    }
+  }
+}

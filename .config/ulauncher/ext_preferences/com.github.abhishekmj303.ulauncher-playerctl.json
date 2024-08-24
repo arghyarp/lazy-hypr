@@ -1,0 +1,13 @@
+{
+    "preferences": {
+        "playerctl_def_player": "spotify"
+    },
+    "triggers": {
+        "playerctl_def_kw": {
+            "keyword": "spt"
+        },
+        "playerctl_kw": {
+            "keyword": "spt"
+        }
+    }
+}

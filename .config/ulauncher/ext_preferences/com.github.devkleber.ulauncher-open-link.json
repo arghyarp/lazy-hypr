@@ -1,0 +1,10 @@
+{
+  "preferences": {
+    "stay_open": "no"
+  },
+  "triggers": {
+    "l_kw": {
+      "keyword": "?"
+    }
+  }
+}

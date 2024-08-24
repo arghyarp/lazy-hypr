@@ -1,0 +1,98 @@
+[
+    {
+        "fallback": false,
+        "iconPath": ":amazon",
+        "id": "05e20406",
+        "name": "Amazon",
+        "trigger": "amazon",
+        "url": "https://www.amazon.in/s?k=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "5a8aceb9",
+        "name": "Brave",
+        "trigger": "v",
+        "url": "https://search.brave.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":gpt",
+        "id": "1ffb56bc",
+        "name": "Chat GPT",
+        "trigger": "gpt",
+        "url": "https://chat.openai.com/?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "762a6e8a",
+        "name": "Dictionay",
+        "trigger": "dict",
+        "url": "https://www.dictionary.com/browse/%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":duckduckgo",
+        "id": "39354ef9",
+        "name": "DuckDuckGo",
+        "trigger": "d",
+        "url": "https://duckduckgo.com/?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":github",
+        "id": "f5d8cb2c",
+        "name": "GitHub",
+        "trigger": "gh",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":google",
+        "id": "055f1f9f",
+        "name": "Google",
+        "trigger": "g",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "bb777820",
+        "name": "Merriam Webster",
+        "trigger": "dm",
+        "url": "https://www.merriam-webster.com/dictionary/%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "c73d7c10",
+        "name": "Onelook",
+        "trigger": "d",
+        "url": "https://www.onelook.com/?w=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "e6c8337c",
+        "name": "Oxford English Dictionary",
+        "trigger": "oed",
+        "url": "https://www.oed.com/search/dictionary/?scope=Entries&q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "514d63d3",
+        "name": "Oxford Learners Dictionaries",
+        "trigger": "old",
+        "url": "https://www.oxfordlearnersdictionaries.com/definition/american_english/%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":youtube",
+        "id": "291d5479",
+        "name": "YouTube",
+        "trigger": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    }
+]

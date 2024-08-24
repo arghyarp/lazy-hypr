@@ -1,0 +1,10 @@
+{
+    "preferences": {
+        "limit": "8"
+    },
+    "triggers": {
+        "kw": {
+            "keyword": "f"
+        }
+    }
+}
