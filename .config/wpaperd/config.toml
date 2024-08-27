@@ -1,7 +1,9 @@
 [default]
-duration = "5s"
+duration = "1m"
 mode = "center"
 sorting = "random"
+transition-time = 0
+queue-size = 10
 
 [eDP-1]
-path = "/home/arghya/Personal/Github/lazy-walls-nord"
+path = "/home/arghya/Personal/Github/lazy-walls-nord/walls"
