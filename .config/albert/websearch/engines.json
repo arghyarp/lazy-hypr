@@ -36,7 +36,7 @@
         "iconPath": ":duckduckgo",
         "id": "39354ef9",
         "name": "DuckDuckGo",
-        "trigger": "d",
+        "trigger": "dd",
         "url": "https://duckduckgo.com/?q=%s"
     },
     {
@@ -54,6 +54,14 @@
         "name": "Google",
         "trigger": "g",
         "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "fallback": false,
+        "iconPath": ":default",
+        "id": "4a9616a0",
+        "name": "Imdb",
+        "trigger": "imdb",
+        "url": "https://www.imdb.com/find/?q=%s"
     },
     {
         "fallback": false,

@@ -79,11 +79,10 @@ enabled=false
 command_poweroff=systemctl poweroff
 command_reboot=systemctl reboot
 enabled=true
-hibernate_enabled=false
+hibernate_enabled=true
 lock_enabled=false
 logout_enabled=false
 title_poweroff=Shutdown
-title_suspend=Sleep
 
 [urlhandler]
 enabled=true

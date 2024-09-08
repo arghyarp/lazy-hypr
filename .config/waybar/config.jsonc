@@ -2,7 +2,7 @@
 {
     //"layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 31, // Waybar height (to be removed for auto height)
+    "height": 33, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
 
@@ -95,7 +95,7 @@
     },
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-	"format": "{:%I:%M %a %b %e }",
+	"format": "{:%I:%M %a %e %b}",
         "timezone": "Asia/Calcutta",
     },
     "hyprland/workspaces": {
@@ -112,7 +112,7 @@
     "8": "8",
     "9": "9",
     "10": "10",
-    "urgent": "  ",
+    "urgent": "",
     //"active": "",
     "default": ""
   },
@@ -191,7 +191,7 @@
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
         "custom/wl-gammarelay-temperature": {
-        "format": " {}K ",
+        "format": "{}K",
         "on-click": " busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Temperature q 5500",
         "on-click-right": " busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Temperature q 3350",
         "exec": "wl-gammarelay-rs watch {t}",
