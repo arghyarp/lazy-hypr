@@ -1,0 +1,4 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+onelook.com:443:	OID.2.16.840.1.101.3.4.2.1	D8:CC:11:07:4D:66:D6:98:D7:03:4A:DE:C8:AA:E8:5E:6D:B2:2F:AF:6F:69:34:99:20:F4:2A:BB:A7:66:41:0C	
+127.0.0.1:8384:	OID.2.16.840.1.101.3.4.2.1	E7:A7:82:9C:51:A2:EE:88:89:DF:F2:C5:3C:52:CF:CF:35:7F:D2:87:10:5E:33:CC:76:3F:BC:08:C6:9F:83:53	

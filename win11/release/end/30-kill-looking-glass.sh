@@ -4,7 +4,7 @@
 dunstify "Killing Looking Glass..."
 killall looking-glass-client
 
-easyeffects --gapplication-service -b 1 &
+easyeffects --gapplication-service &
 copyq --start-server &
 albert &
 
