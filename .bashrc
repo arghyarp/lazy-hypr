@@ -140,13 +140,9 @@ alias pacr='sudo pacman -R'
 alias pacrs='sudo pacman -Rs'
 alias pacq='sudo pacman -Q'
 alias pacqs='sudo pacman -Qs'
-alias yays='yay -S'
-alias yayss='yay -Ss'
-alias yayr='yay -R'
-alias yayrs='yay -Rs'
-alias yayq='yay -Q'
-alias yayqs='yay -Qs'
-
+alias parus='paru -S'
+alias paruss='paru -Ss'
+alias paruc='paru -c'
 
 # Change directory aliases
 alias home='cd ~'
@@ -160,12 +156,17 @@ alias g='cd $HOME/Personal/Github'
 alias walls='cd $HOME/Personal/Github/lazy-walls-nord'
 
 # General
-alias e='nautilus .'
+alias e='thunar .'
+alias kill='killall'
 alias q='exit'
 alias shutdown='systemctl poweroff'
 alias suspend='systemctl suspend'
 alias timeshift='sudo -E timeshift-launcher'
 alias sctl='systemctl'
+alias cpuconfig='lstopo -p'
+alias setcputemp85='sudo ./RyzenAdj/build/ryzenadj --tctl-temp=85'
+alias setcputemp90='sudo ./RyzenAdj/build/ryzenadj --tctl-temp=90'
+
 
 # cd into the old directory
 alias bd='cd "$OLDPWD"'
@@ -352,6 +353,11 @@ cd ()
 	fi
 }
 
+gparted() {
+	xhost +
+	sudo gparted
+}
+
 # Returns the last 2 fields of the working directory
 pwdtail() {
 	pwd | awk -F/ '{nlast = NF -1;print $nlast"/"$NF}'
@@ -396,31 +402,18 @@ glazy() {
 	git push
 }
 
-
-
 #######################################################
 # Set the ultimate amazing command prompt
 #######################################################
-
-
 export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin"
+export PATH=$PATH:"$HOME/Downloads/platform-tools/"
 
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
 
 
 
-
-
-
-
-
-
-
-#
-# ~/.bashrc
-#
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-
 PS1='[\u@\h \W]\$ '
