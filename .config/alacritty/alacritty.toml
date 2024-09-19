@@ -5,7 +5,8 @@ working_directory = "None"
 import = [ 
   # -- Themes --
   #"~/.config/alacritty/catppuccin-macchiato.toml", 
-  "~/.config/alacritty/nordic.toml", 
+  #"~/.config/alacritty/nordic.toml", 
+  "~/.config/alacritty/everforest-dark-hard.toml", 
   # "~/.config/alacritty/xcad.toml",
   # "~/.config/alacritty/dracula.toml",
   # "~/.config/alacritty/catppuccin-mocha.toml",

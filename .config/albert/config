@@ -67,7 +67,7 @@ trigger="cc "
 enabled=true
 
 [python.syncthing]
-enabled=true
+enabled=false
 
 [python.unit_converter]
 enabled=true

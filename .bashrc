@@ -134,15 +134,17 @@ alias cls='clear'
 alias svi='sudo nvim'
 #alias vis='nvim "+set si"'
 alias apt-get='sudo apt-get'
-alias pacs='sudo pacman -S'
-alias pacss='sudo pacman -Ss'
-alias pacr='sudo pacman -R'
-alias pacrs='sudo pacman -Rs'
-alias pacq='sudo pacman -Q'
-alias pacqs='sudo pacman -Qs'
-alias parus='paru -S'
-alias paruss='paru -Ss'
-alias paruc='paru -c'
+# arch 
+alias pacs='yay -S'
+alias pacss='yay -Ss'
+alias pacr='yay -R'
+alias pacrs='yay -Rs'
+alias pacq='yay -Q'
+alias paruc='yay -Yc'
+alias paruca='yay -Sc'
+pacqs () {
+	yay -Q | grep "$1"
+}
 
 # Change directory aliases
 alias home='cd ~'
@@ -153,9 +155,12 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 alias g='cd $HOME/Personal/Github'
-alias walls='cd $HOME/Personal/Github/lazy-walls-nord'
+alias walls='cd $HOME/Personal/Github/lazy-walls-nord/walls'
 
-# General
+# general
+
+alias cd='z'
+alias neofetch='fastfetch'
 alias e='thunar .'
 alias kill='killall'
 alias q='exit'
@@ -163,10 +168,15 @@ alias shutdown='systemctl poweroff'
 alias suspend='systemctl suspend'
 alias timeshift='sudo -E timeshift-launcher'
 alias sctl='systemctl'
+alias ssctl='sudo systemctl'
 alias cpuconfig='lstopo -p'
 alias setcputemp85='sudo ./RyzenAdj/build/ryzenadj --tctl-temp=85'
 alias setcputemp90='sudo ./RyzenAdj/build/ryzenadj --tctl-temp=90'
 
+mountmagnum () {
+	sudo mkdir -p /run/media/arghya/Magnum
+	sudo ntfs-3g /dev/sda1 /run/media/arghya/Magnum
+}
 
 # cd into the old directory
 alias bd='cd "$OLDPWD"'
