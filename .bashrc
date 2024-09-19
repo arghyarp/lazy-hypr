@@ -140,8 +140,8 @@ alias pacss='yay -Ss'
 alias pacr='yay -R'
 alias pacrs='yay -Rs'
 alias pacq='yay -Q'
-alias paruc='yay -Yc'
-alias paruca='yay -Sc'
+alias yayc='yay -Yc'
+alias yayca='yay -Sc'
 pacqs () {
 	yay -Q | grep "$1"
 }
