@@ -158,7 +158,7 @@ alias g='cd $HOME/Personal/Github'
 alias walls='cd $HOME/Personal/Github/lazy-walls-nord/walls'
 
 # general
-
+alias cat='bat -p'
 alias cd='z'
 alias neofetch='fastfetch'
 alias e='thunar .'
