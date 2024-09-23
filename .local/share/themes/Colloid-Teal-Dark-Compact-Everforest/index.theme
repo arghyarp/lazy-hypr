@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Colloid-Teal-Dark-Compact-Everforest
+Comment=An Flat Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Colloid-Teal-Dark-Compact-Everforest
+MetacityTheme=Colloid-Teal-Dark-Compact-Everforest
+IconTheme=Colloid-Teal-Everforest-Dark
+CursorTheme=Colloid-cursors
+ButtonLayout=close,minimize,maximize:menu
