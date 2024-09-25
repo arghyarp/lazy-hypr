@@ -19,7 +19,8 @@ fi
 #######################################################
 # EXPORTS
 #######################################################
-
+# firefox esr
+#export PATH=$HOME/Applications/firefox/firefox
 # Disable the bell
 if [[ $iatest -gt 0 ]]; then bind "set bell-style visible"; fi
 
@@ -135,15 +136,26 @@ alias svi='sudo nvim'
 #alias vis='nvim "+set si"'
 alias apt-get='sudo apt-get'
 # arch 
-alias pacs='yay -S'
-alias pacss='yay -Ss'
-alias pacr='yay -R'
-alias pacrs='yay -Rs'
-alias pacq='yay -Q'
-alias yayc='yay -Yc'
-alias yayca='yay -Sc'
+#alias pacs='yay -S'
+#alias pacss='yay -Ss'
+#alias pacr='yay -R'
+#alias pacrs='yay -Rs'
+#alias pacq='yay -Q'
+#alias yayc='yay -Yc'
+#alias yayca='yay -Sc'
+#pacqs () {
+#	yay -Q | grep "$1"
+#}
+# fedora
+alias pacss='dnf search'
+alias pacs='sudo dnf install'
+alias pacrs='sudo dnf erase'
+alias pacr='sudo dnf remove'
+alias yayc='sudo dnf autoremove'
+alias dnfcu='sudo dnf check-update'
+alias dnfu='sudo dnf upgrade'
 pacqs () {
-	yay -Q | grep "$1"
+	dnf list installed | grep "$1"
 }
 
 # Change directory aliases
@@ -260,7 +272,7 @@ alias docker-clean=' \
 # SPECIAL FUNCTIONS
 #######################################################
 # Extracts any archive(s) (if unp isn't installed)
-extract() {
+extract () {
 	for archive in "$@"; do
 		if [ -f "$archive" ]; then
 			case $archive in
@@ -417,6 +429,8 @@ glazy() {
 #######################################################
 export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin"
 export PATH=$PATH:"$HOME/Downloads/platform-tools/"
+export PATH=$PATH:"$HOME/Applications/firefox/"
+export PATH=$PATH:"$HOME/Applications/wpaperd/"
 
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
@@ -427,3 +441,4 @@ eval "$(zoxide init bash)"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
+
