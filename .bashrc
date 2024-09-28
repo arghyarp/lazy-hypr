@@ -136,27 +136,27 @@ alias svi='sudo nvim'
 #alias vis='nvim "+set si"'
 alias apt-get='sudo apt-get'
 # arch 
-#alias pacs='yay -S'
-#alias pacss='yay -Ss'
-#alias pacr='yay -R'
-#alias pacrs='yay -Rs'
-#alias pacq='yay -Q'
-#alias yayc='yay -Yc'
-#alias yayca='yay -Sc'
-#pacqs () {
-#	yay -Q | grep "$1"
-#}
-# fedora
-alias pacss='dnf search'
-alias pacs='sudo dnf install'
-alias pacrs='sudo dnf erase'
-alias pacr='sudo dnf remove'
-alias yayc='sudo dnf autoremove'
-alias dnfcu='sudo dnf check-update'
-alias dnfu='sudo dnf upgrade'
+alias pacs='yay -S'
+alias pacss='yay -Ss'
+alias pacr='yay -R'
+alias pacrs='yay -Rs'
+alias pacq='yay -Q'
+alias yayc='yay -Yc'
+alias yayca='yay -Sc'
 pacqs () {
-	dnf list installed | grep "$1"
+	yay -Q | grep "$1"
 }
+# fedora
+#alias pacss='dnf search'
+#alias pacs='sudo dnf install'
+#alias pacrs='sudo dnf erase'
+#alias pacr='sudo dnf remove'
+#alias yayc='sudo dnf autoremove'
+#alias dnfcu='sudo dnf check-update'
+#alias dnfu='sudo dnf upgrade'
+#pacqs () {
+#	dnf list installed | grep "$1"
+#}
 
 # Change directory aliases
 alias home='cd ~'
@@ -429,7 +429,7 @@ glazy() {
 #######################################################
 export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bin:/.local/share/flatpak/exports/bin"
 export PATH=$PATH:"$HOME/Downloads/platform-tools/"
-export PATH=$PATH:"$HOME/Applications/firefox/"
+#export PATH=$PATH:"$HOME/Applications/firefox/"
 export PATH=$PATH:"$HOME/Applications/wpaperd/"
 
 eval "$(starship init bash)"
