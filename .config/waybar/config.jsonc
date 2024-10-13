@@ -2,9 +2,9 @@
 {
     //"layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 33, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
+    "height": 22, // Gaps between modules (4px)
 
     // Choose the order of the modules
     "modules-left": [
@@ -94,8 +94,7 @@
         "spacing": 10
     },
     "clock": {
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-	"format": "{:%I:%M %a %e %b}",
+	"format": "{:%I:%M  %a%e %b} ",
         "timezone": "Asia/Calcutta",
     },
     "hyprland/workspaces": {
@@ -128,9 +127,9 @@
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 85,
+        "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{temperatureC}° C"
+        "format": "{temperatureC}°C"
     },
     "backlight": {
         // "device": "acpi_video1",
@@ -165,16 +164,16 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "wireplumber": {
-	"format": "{volume}{icon}",
+	"format": "{icon}{volume}",
     	"format-muted": "  ",
     	"on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
         "format-icons": {
-            "default": [" "]
+            "default": ["  "]
         },
 	"reverse-scrolling": 1
 },
     "custom/media": {
-        "format": "{icon} {}",
+        "format": "{}",
         "escape": true,
         "return-type": "json",
         "max-length": 200,

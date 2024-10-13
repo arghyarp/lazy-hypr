@@ -1287,7 +1287,7 @@ user_pref("browser.startup.page", 3); // 0102
 user_pref("privacy.clearOnShutdown.history", false); // 2811
 
 /* override recipe: RFP enabled ***/
-	user_pref("privacy.resistFingerprinting", true);
+	//user_pref("privacy.resistFingerprinting", true);
 	//user_pref("privacy.resistFingerprinting.letterboxing", false);
 	user_pref("webgl.disabled", true);
 	user_pref("privacy.spoof_english", 2);

@@ -1,4 +1,11 @@
-@define-color fg #d3c6aa;
+/* 
+@define-color fg #d3c6aa; 
+
+@define-color fg #bcdcd8; 
+@define-color bg #161a1d;
+@define-color accent #7fbbb3;
+*/
+@define-color fg #bcdcd8; 
 @define-color bg #161a1d;
 @define-color accent #7fbbb3;
 
@@ -8,18 +15,15 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     border: none;
-    font-family: MesloLGS Nerd Font Mono;
+    font-family: Meslo LGS Nerd Font;
+    font-size: 16px;
+    margin: -1;
+    padding: 0;
 }
 window#waybar {
-    background: transparent;
+    background: rgba(22, 26, 29, 0.75);
 }
 window > box{
-    /*
-	margin: 2px;
-	margin-bottom: 0px;
-	border-radius: 12px;
-	background: rgba(21, 24, 30, 0.85);
-*/
 }
 window#waybar.hidden {
     opacity: 0.5;
@@ -87,10 +91,10 @@ button:hover {
 }
 #workspaces {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
     border-radius: 4px;
-    background: @bg;
+    
 
     color: @fg;
 
@@ -105,25 +109,25 @@ button:hover {
 }
 #clock {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
     padding-right: 8px;
     padding-left: 8px;
     border-radius: 12px;
-    background: @bg;
+    
     color: @fg;
 }
 #battery {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
-    padding-right: 8px;
+    padding-right: 16px;
     padding-left: 8px;
     border-radius: 12px;
     margin-left: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background: @bg;
+    
     color: @fg;
 }
 
@@ -171,7 +175,7 @@ label:focus {
 
 #wireplumber {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
     padding-right: 8px;
     padding-left: 8px;
@@ -180,7 +184,7 @@ label:focus {
     border-bottom-right-radius: 0;
     margin-right: 0;
     margin-left: 0;
-    background: @bg;
+    
     color: @fg;
 }
 
@@ -188,23 +192,23 @@ label:focus {
 }
 #custom-wl-gammarelay-temperature {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
     padding-right: 8px;
     padding-left: 8px;
     margin-right: 0;
     margin-left: 0;
-    background: @bg;
+    
     color: @fg;
 }
 #custom-media {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
     padding-right: 18px;
     padding-left: 18px;
     border-radius: 16px;
-    background: @bg;
+    
     color: @accent;
     min-width: 100px;
     margin-right: 100px;
@@ -216,13 +220,13 @@ label:focus {
 }
 #temperature {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
     padding-right: 8px;
     padding-left: 8px;
     margin-right: 0;
     margin-left: 0;
-    background: @bg;
+    
     color: @fg;
 }
 #temperature.critical {
@@ -230,13 +234,13 @@ label:focus {
 }
 #tray {
     animation-duration: 0.0s;
-    margin: 4px;
+    
     padding: 0px;
     padding-right: 8px;
     padding-left: 8px;
     margin-right: 0;
     margin-left: 0;
-    background: @bg;
+    
     color: @fg;
 }
 #tray > .passive {
