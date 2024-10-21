@@ -1,0 +1,212 @@
+{
+   "actionTitle": {
+      "message": "打开垂直标签页"
+   },
+   "closeConfirmCancel": {
+      "message": "取消"
+   },
+   "closeConfirmOk": {
+      "message": "确定"
+   },
+   "closeConfirmTitle": {
+      "message": "⚠️ $1 个标签将被关闭！"
+   },
+   "extDescription": {
+      "message": "在浏览器侧边栏中垂直显示和管理标签页。"
+   },
+   "extName": {
+      "message": "侧边栏垂直标签页"
+   },
+   "extShortName": {
+      "message": "垂直标签页"
+   },
+   "groupColorBlue": {
+      "message": "蓝色"
+   },
+   "groupColorCyan": {
+      "message": "青色"
+   },
+   "groupColorGreen": {
+      "message": "绿色"
+   },
+   "groupColorGrey": {
+      "message": "灰色"
+   },
+   "groupColorOrange": {
+      "message": "橙色"
+   },
+   "groupColorPink": {
+      "message": "粉色"
+   },
+   "groupColorPurple": {
+      "message": "紫色"
+   },
+   "groupColorRed": {
+      "message": "红色"
+   },
+   "groupColorYellow": {
+      "message": "黄色"
+   },
+   "groupNamePlaceholder": {
+      "message": "为此分组命名"
+   },
+   "guideBrowserC1": {
+      "message": "浏览器设置 → 外观 → 侧边栏"
+   },
+   "guideBrowserHead": {
+      "message": "设置侧边栏在浏览器中的显示位置：左侧或右侧"
+   },
+   "guideHowC1": {
+      "message": "单击：切换到标签页。"
+   },
+   "guideHowC2": {
+      "message": "双击：关闭标签页。"
+   },
+   "guideHowC3": {
+      "message": "鼠标右键：提供关闭、固定、复制等功能。"
+   },
+   "guideHowC4": {
+      "message": "上下拖拽：移动标签页的位置。"
+   },
+   "guideHowC5": {
+      "message": "底部工具栏：搜索功能。"
+   },
+   "guideHowC6": {
+      "message": "鼠标中键：关闭标签页。"
+   },
+   "guideHowHead": {
+      "message": "如何使用扩展侧边栏："
+   },
+   "guideOpenC1": {
+      "message": "点击扩展图标。您需要把扩展“固定”在浏览器工具栏上。"
+   },
+   "guideOpenC2_1": {
+      "message": "使用快捷键。快捷键请自行设置"
+   },
+   "guideOpenC2_2": {
+      "message": "，默认是 Alt+V 。"
+   },
+   "guideOpenHead": {
+      "message": "打开扩展侧边栏的三种方法："
+   },
+   "menuAddToGroup": {
+      "message": "将标签页添加到新分组"
+   },
+   "menuCloseGroup": {
+      "message": "关闭分组"
+   },
+   "menuCloseLeft": {
+      "message": "关闭上侧标签页 ⤒"
+   },
+   "menuCloseOther": {
+      "message": "关闭其它标签页"
+   },
+   "menuCloseRight": {
+      "message": "关闭下侧标签页 ⤓"
+   },
+   "menuCloseThis": {
+      "message": "关闭标签页"
+   },
+   "menuDuplicate": {
+      "message": "复制"
+   },
+   "menuGroupToNewWindow": {
+      "message": "将分组移至新窗口"
+   },
+   "menuMute": {
+      "message": "静音"
+   },
+   "menuNewTabInGroup": {
+      "message": "在分组内新增标签页"
+   },
+   "menuNewTabRight": {
+      "message": "在右侧新增标签页"
+   },
+   "menuPin": {
+      "message": "固定"
+   },
+   "menuReload": {
+      "message": "重新加载"
+   },
+   "menuRemoveFromGroup": {
+      "message": "将标签页从分组中移除"
+   },
+   "menuTabToNewWindow": {
+      "message": "将标签页移至新窗口"
+   },
+   "menuUngroup": {
+      "message": "取消分组"
+   },
+   "menuUnmute": {
+      "message": "取消静音"
+   },
+   "menuUnpin": {
+      "message": "取消固定"
+   },
+   "searchNoResults": {
+      "message": "无搜索结果"
+   },
+   "searchPlaceholder": {
+      "message": "搜索标签页"
+   },
+   "searchResultHeader": {
+      "message": "搜索结果"
+   },
+   "settingAbout": {
+      "message": "关于"
+   },
+   "settingAtBottom": {
+      "message": "在底部"
+   },
+   "settingAtTop": {
+      "message": "在顶部"
+   },
+   "settingCancel": {
+      "message": "取消"
+   },
+   "settingCloseByDoubleClick": {
+      "message": "双击关闭标签"
+   },
+   "settingDonate": {
+      "message": "赞助"
+   },
+   "settingFontSize": {
+      "message": "字体大小"
+   },
+   "settingFontSizeNormal": {
+      "message": "正常"
+   },
+   "settingFontSizeSmall": {
+      "message": "稍小"
+   },
+   "settingNewtab": {
+      "message": "显示新建标签按钮"
+   },
+   "settingRate": {
+      "message": "评价"
+   },
+   "settingSave": {
+      "message": "保存"
+   },
+   "settingSearch": {
+      "message": "搜索框"
+   },
+   "settingSettings": {
+      "message": "设置"
+   },
+   "settingSidebarPosition": {
+      "message": "侧边栏位置"
+   },
+   "settingSidebarPositionLink": {
+      "message": "左 | 右"
+   },
+   "settingSidebarShortcut": {
+      "message": "侧边栏快捷键"
+   },
+   "settingSidebarShortcutLink": {
+      "message": "激活"
+   },
+   "settingWebsite": {
+      "message": "网站"
+   }
+}

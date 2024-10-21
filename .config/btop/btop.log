@@ -1,0 +1,27 @@
+
+2024/10/06 (17:21:59) | ===> btop++ v.1.4.0
+2024/10/06 (17:21:59) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/06 (17:23:09) | ===> btop++ v.1.4.0
+2024/10/06 (17:23:09) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/09 (00:06:14) | ===> btop++ v.1.4.0
+2024/10/09 (00:06:14) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/11 (13:49:00) | ===> btop++ v.1.4.0
+2024/10/11 (13:49:00) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/11 (17:46:50) | ===> btop++ v.1.4.0
+2024/10/11 (17:46:50) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/11 (18:17:28) | ===> btop++ v.1.4.0
+2024/10/11 (18:17:28) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/11 (19:29:58) | ===> btop++ v.1.4.0
+2024/10/11 (19:29:58) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/11 (19:46:43) | ===> btop++ v.1.4.0
+2024/10/11 (19:46:43) | WARNING: NVML: Failed to get maximum GPU power draw, defaulting to 225W: Not Supported
+
+2024/10/11 (23:52:08) | ===> btop++ v.1.4.0
+2024/10/11 (23:52:08) | WARNING: Failed to get disk/partition stats for mount "/run/user/1000/doc" with statvfs error code: 1. Ignoring...

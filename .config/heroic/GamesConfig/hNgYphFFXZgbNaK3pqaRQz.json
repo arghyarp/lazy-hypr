@@ -1,0 +1,30 @@
+{
+  "hNgYphFFXZgbNaK3pqaRQz": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "/home/arghya/.local/share/Steam/compatibilitytools.d/UMU-Proton-9.0-3/proton",
+      "name": "Proton - UMU-Proton-9.0-3",
+      "type": "proton"
+    },
+    "winePrefix": "/home/arghya/Games/Heroic/Prefixes/default/Title",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

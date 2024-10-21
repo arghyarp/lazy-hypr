@@ -90,30 +90,31 @@
         }
     },
     "tray": {
-        // "icon-size": 21,
+       // "icon-size": 21,
         "spacing": 10
     },
     "clock": {
-	"format": "{:%I:%M  %a%e %b} ",
-        "timezone": "Asia/Calcutta",
+//	"format": "{:%I:%M  %b %e %a }",
+	"format": "{:%I:%M  %a %e|%m }",
+        "timezone": "Asia/Calcutta"
     },
     "hyprland/workspaces": {
   "format": "{icon}",
   "on-click": "activate",
   "format-icons": {
-    "1": "一",
-    "2": "二",
-    "3": "三",
-    "4": "4",
-    "5": "5",
-    "6": "6",
-    "7": "7",
-    "8": "8",
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
+    "7": "",
+    "8": "",
     "9": "9",
-    "10": "10",
+    "10": "X",
     "urgent": "",
     //"active": "",
-    "default": ""
+    "default": "[]="
   },
   "sort-by-number": true
   },
@@ -145,14 +146,11 @@
             "warning": 30,
             "critical": 10
         },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
+//       "format": "{capacity}% {icon}",
+//       "format-full": "{capacity}% {icon}",
         "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+//       "format-icons": ["", "", "", "", ""]
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
@@ -164,11 +162,11 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "wireplumber": {
-	"format": "{icon}{volume}",
-    	"format-muted": "  ",
+	"format": "{volume} {icon}",
+    	"format-muted": " ",
     	"on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
         "format-icons": {
-            "default": ["  "]
+            "default": [""]
         },
 	"reverse-scrolling": 1
 },
@@ -176,7 +174,7 @@
         "format": "{}",
         "escape": true,
         "return-type": "json",
-        "max-length": 200,
+        "max-length": 100,
 	"on-click": "playerctl play-pause",
 	"on-click-right": "playerctl stop",
 	"smooth-scrolling-threshold": 15, // This value was tested using a trackpad, it should be lowered if using a mouse.

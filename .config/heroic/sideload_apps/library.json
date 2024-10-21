@@ -1,0 +1,22 @@
+{
+	"games": [
+		{
+			"runner": "sideload",
+			"app_name": "hNgYphFFXZgbNaK3pqaRQz",
+			"title": "Title",
+			"install": {
+				"executable": "/home/arghya/KING-GAMES/Silent Hill 2 Remake/SILENT HILL 2/SHProto.exe",
+				"platform": "Windows",
+				"is_dlc": false
+			},
+			"folder_name": "/home/arghya/KING-GAMES/Silent Hill 2 Remake/SILENT HILL 2",
+			"art_cover": "file:///opt/heroic/resources/app.asar/build/assets/heroic_card-mjvSE_Ga.jpg",
+			"is_installed": true,
+			"art_square": "file:///opt/heroic/resources/app.asar/build/assets/heroic_card-mjvSE_Ga.jpg",
+			"canRunOffline": true,
+			"browserUrl": "",
+			"customUserAgent": "",
+			"launchFullScreen": false
+		}
+	]
+}

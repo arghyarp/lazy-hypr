@@ -1,0 +1,9 @@
+[1]
+Active Tab Index=0
+Tab Count=1
+Tab Data 0=\x00\x00\x00\x02\x00\x00\x00\x00.file:///home/arghya/KING-GAMES/game-setup/mods\x00\x00\x00\x00\x01\x00\x00\x00\x81file:///home/arghya/KING-GAMES/game-setup/mods/Dishonred%20Death%20of%20the%20Outsider%20Intro%20Video%20Skip-3-1-0-1674195657.7z\x00\x00\x00\x01\x00\x00\x00\x81file:///home/arghya/KING-GAMES/game-setup/mods/Dishonred%20Death%20of%20the%20Outsider%20Intro%20Video%20Skip-3-1-0-1674195657.7z\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x01\x00\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[WindowProperties1]
+ClassName=DolphinMainWindow
+MenuBar=Disabled
+ObjectName=Dolphin#1

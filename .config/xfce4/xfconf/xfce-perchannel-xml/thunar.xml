@@ -2,9 +2,9 @@
 
 <channel name="thunar" version="1.0">
   <property name="last-view" type="string" value="ThunarDetailsView"/>
-  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_100_PERCENT"/>
+  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_400_PERCENT"/>
   <property name="last-window-maximized" type="bool" value="true"/>
-  <property name="last-separator-position" type="int" value="131"/>
+  <property name="last-separator-position" type="int" value="137"/>
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="hidden-bookmarks" type="array">
     <value type="string" value="trash:///"/>
@@ -14,16 +14,30 @@
   <property name="hidden-devices" type="array">
     <value type="string" value="5925fdcf-938e-460f-a211-dee41c9ec874"/>
     <value type="string" value="555d37a7-d392-4c56-bb5b-b6222c3a157d"/>
+    <value type="string" value="f4aeb7a0-79d2-4173-b810-39272921f9fe"/>
+    <value type="string" value="4ab87bbf-8135-4f6e-b88d-1400cc514811"/>
+    <value type="string" value="9bfa8f7d-4d89-4737-8c52-731d78a7c542"/>
+    <value type="string" value="eea60d90-ac88-426a-bba5-9e32bc8e7a61"/>
+    <value type="string" value="42e17edf-8dec-4976-8672-66f98efe0a83"/>
+    <value type="string" value="973fd83e-eb47-444a-b0d1-52e40ecaed5c"/>
+    <value type="string" value="8725351f-f4a2-44dd-9a24-220526b43180"/>
+    <value type="string" value="4edfc3ee-f6f7-43cb-8eff-fc1deaefa25b"/>
   </property>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="default-view" type="string" value="ThunarDetailsView"/>
   <property name="misc-text-beside-icons" type="bool" value="true"/>
   <property name="misc-directory-specific-settings" type="bool" value="true"/>
   <property name="misc-show-delete-action" type="bool" value="true"/>
-  <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,13,14,15,11,10,12,16,17"/>
-  <property name="last-toolbar-visible-buttons" type="string" value="0,1,0,1,1,0,0,0,0,0,0,1,0,1,1,1,0,0"/>
+  <property name="last-toolbar-item-order" type="string" value="0,1,2,3,15,4,5,6,7,8,9,13,14,11,10,12,16,17"/>
+  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0"/>
   <property name="last-location-bar" type="string" value="ThunarLocationButtons"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,126,50,50,50,50,50,370,50,50,78,50,392"/>
+  <property name="last-details-view-column-widths" type="string" value="50,141,133,50,91,109,50,50,1076,50,50,64,50,125"/>
   <property name="last-menubar-visible" type="bool" value="false"/>
+  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="misc-parallel-copy-mode" type="string" value="THUNAR_PARALLEL_COPY_MODE_ALWAYS"/>
+  <property name="misc-image-preview-mode" type="string" value="THUNAR_IMAGE_PREVIEW_MODE_STANDALONE"/>
+  <property name="misc-exec-shell-scripts-by-default" type="bool" value="false"/>
+  <property name="last-image-preview-visible" type="bool" value="false"/>
+  <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
 </channel>

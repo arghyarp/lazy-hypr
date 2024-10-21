@@ -66,6 +66,9 @@ trigger="cc "
 [python.kill]
 enabled=true
 
+[python.locate]
+enabled=false
+
 [python.syncthing]
 enabled=false
 
@@ -99,8 +102,8 @@ displayScrollbar=false
 followCursor=true
 hideOnFocusLoss=true
 historySearch=true
-itemCount=8
-lightTheme=Yosemite Dark
+itemCount=6
+lightTheme=Yosemite
 quitOnClose=false
 showCentered=true
 systemShadow=false

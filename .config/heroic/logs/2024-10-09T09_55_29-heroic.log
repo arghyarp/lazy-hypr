@@ -1,0 +1,110 @@
+(15:25:30) INFO:    [Legendary]:        Legendary location: /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+(15:25:30) INFO:    [Gog]:              GOGDL location: /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+(15:25:30) INFO:    [Connection]:       Connectivity: check-online
+(15:25:30) INFO:    [Connection]:       Pinging external endpoints
+(15:25:30) INFO:    [Gog]:              Checking for existing gog manifests
+(15:25:30) WARNING: [Backend]:          Protocol already registered.
+(15:25:30) INFO:    [Backend]:          Frontend Ready
+(15:25:30) INFO:    [Backend]:          Checking for new Heroic Updates
+(15:25:30) INFO:    [Backend]:          Checking for current version changelog
+(15:25:30) INFO:    [Frontend]:         Updated to a new version, cleaaning up the cache.
+(15:25:30) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/arghya/.config/heroic/legendaryConfig/legendary /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary cleanup
+(15:25:30) INFO:    [Frontend]:         Refreshing undefined Library
+(15:25:30) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(15:25:30) INFO:    [Legendary]:        Refreshing library...
+(15:25:31) INFO:    [Connection]:       Connectivity: online
+(15:25:31) INFO:    [Backend]:          User Not Found, removing it from Store
+(15:25:31) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(15:25:31) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/arghya/.config/heroic/gogdlConfig /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/arghya/.config/heroic/gog_store/auth.json auth
+(15:25:32) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(15:25:32) INFO:    [Winetricks]:       Downloading Winetricks
+(15:25:33) INFO:    [DXVKInstaller]:    Updating dxvk to: dxvk-2.4.1
+(15:25:33) INFO:    [DXVKInstaller]:    Updating vkd3d to: vkd3d-proton-2.13
+(15:25:33) INFO:    [DXVKInstaller]:    Updating dxvk-nvapi to: dxvk-nvapi-v0.7.1
+(15:25:35) INFO:    [WineDownloader]:   Updating wine versions info
+(15:25:35) INFO:    [WineDownloader]:   Fetching upstream information...
+(15:25:35) INFO:    [Backend]:          Starting the Download Queue
+(15:25:36) INFO:    [WineDownloader]:   wine versions updated
+(15:25:40) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/jp7677/dxvk-nvapi/releases/download/v0.7.1/dxvk-nvapi-v0.7.1.tar.gz
+(15:25:40) INFO:    [DXVKInstaller]:    Downloaded dxvk-nvapi, extracting...
+(15:25:40) INFO:    [DXVKInstaller]:    dxvk-nvapi updated!
+(15:25:41) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/Heroic-Games-Launcher/vkd3d-proton/releases/download/v2.13/vkd3d-proton-2.13.tar.xz
+(15:25:41) INFO:    [DXVKInstaller]:    Downloaded vkd3d, extracting...
+(15:25:41) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/doitsujin/dxvk/releases/download/v2.4.1/dxvk-2.4.1.tar.gz
+(15:25:41) INFO:    [DXVKInstaller]:    Downloaded dxvk, extracting...
+(15:25:41) INFO:    [DXVKInstaller]:    vkd3d updated!
+(15:25:41) INFO:    [DXVKInstaller]:    dxvk updated!
+(15:26:25) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/arghya/.config/heroic/legendaryConfig/legendary /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(15:26:25) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/arghya/.config/heroic/gogdlConfig /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/arghya/.config/heroic/gog_store/auth.json --version
+(15:26:25) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/arghya/.config/heroic/nile_config /opt/heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(15:26:25) INFO:    [Backend]:          
+System Information:
+CPU: 16x AMD Ryzen 7 5800HS with Radeon Graphics
+Memory: 16.14 GB (used: 5.05 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]
+    IDs: D=1638 V=1002 SD=150c SV=1043
+    Driver: amdgpu
+  GPU 1:
+    Name: NVIDIA Corporation TU117M [GeForce GTX 1650 Mobile / Max-Q]
+    IDs: D=1f9d V=10de SD=150c SV=1043
+    Driver: nvidia
+OS: Arch Linux 6.11.2-zen1-1-zen (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+(15:27:56) INFO:    [Backend]:          Adding shortcuts for Title
+(15:27:56) INFO:    [Backend]:          Writing config for hNgYphFFXZgbNaK3pqaRQz
+(15:27:56) INFO:    [Backend]:          Changed config: wineVersion from {"bin":"/usr/bin/wine","name":"Wine Default - wine-9.11","type":"wine","wineserver":"/usr/bin/wineserver"} to {"bin":"/home/arghya/.local/share/Steam/compatibilitytools.d/UMU-Proton-9.0-3/proton","name":"Proton - UMU-Proton-9.0-3","type":"proton"}
+(15:27:56) INFO:    [Backend]:          Changed config: winePrefix from /home/arghya/Games/Heroic/Prefixes/default to /home/arghya/Games/Heroic/Prefixes/default/Title
+(15:27:56) INFO:    [Backend]:          Changed config: wineCrossoverBottle from undefined to 
+(15:27:56) INFO:    [Frontend]:         Refreshing sideload Library
+(15:27:56) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(15:27:56) ERROR:   [DownloadManager]:  Downloader: Failed to get headers for file:///opt/heroic/resources/app.asar/build/assets/heroic_card-mjvSE_Ga.jpg. 
+Error: AggregateError
+(15:27:56) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(15:27:58) INFO:    [Backend]:          Launching Title (hNgYphFFXZgbNaK3pqaRQz)
+(15:27:58) INFO:    [Backend]:          Preventing display from sleep
+(15:27:58) INFO:    [Backend]:          Checking if wine version exists: Proton - UMU-Proton-9.0-3
+(15:27:58) INFO:    [Backend]:          Preventing machine to sleep
+(15:28:01) INFO:    [Backend]:          Checking if wine version exists: Proton - UMU-Proton-9.0-3
+(15:28:01) INFO:    [Backend]:          Checking if wine version exists: Proton - UMU-Proton-9.0-3
+(15:28:01) INFO:    [Backend]:          Checking if wine version exists: Proton - UMU-Proton-9.0-3
+(15:28:01) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(15:28:03) INFO:    [Backend]:          Created/Updated Wineprefix at /home/arghya/Games/Heroic/Prefixes/default/Title
+(15:28:04) INFO:    [Runtime]:          Downloading runtime eac_runtime with download link https://github.com/lutris/buildbot/releases/download/2022.06.23/eac_runtime-20240114.tar.xz
+(15:28:05) INFO:    [Runtime]:          Downloading runtime battleye_runtime with download link https://github.com/lutris/buildbot/releases/download/2024-05-21/battleeye_runtime.tar.xz
+(15:28:09) INFO:    [Backend]:          launching non-native sideloaded: /home/arghya/KING-GAMES/Silent Hill 2 Remake/SILENT HILL 2/SHProto.exe 
+(15:28:09) INFO:    [Backend]:          Checking if wine version exists: Proton - UMU-Proton-9.0-3
+(15:28:09) INFO:    [Backend]:          Preventing display to sleep
+(15:28:09) DEBUG:   [Backend]:          Running Wine command: waitforexitandrun /home/arghya/KING-GAMES/Silent Hill 2 Remake/SILENT HILL 2/SHProto.exe
+(15:28:09) DEBUG:   [Backend]:          Logging to file "/home/arghya/.config/heroic/GamesConfig/hNgYphFFXZgbNaK3pqaRQz-lastPlay.log"
+(15:28:13) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(15:28:13) INFO:    [Frontend]:         Refreshing sideload Library
+(15:28:13) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(15:28:13) INFO:    [Backend]:          Stopping Power Saver Blocker
+(15:28:13) INFO:    [Backend]:          Stopping Display Sleep Blocker
+(15:28:33) INFO:    [Backend]:          Checking if wine version exists: Proton - UMU-Proton-9.0-3
+(15:28:33) ERROR:   [Backend]:          Couldn't find all library folders of Proton - UMU-Proton-9.0-3!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(15:28:33) INFO:    [Winetricks]:       Running /home/arghya/.config/heroic/tools/winetricks dlls list
+(15:28:33) ERROR:   [Winetricks]:       Executing cd /home/arghya/.config/heroic/tools
+
+(15:28:35) INFO:    [Backend]:          Checking if wine version exists: Proton - UMU-Proton-9.0-3
+(15:28:35) ERROR:   [Backend]:          Couldn't find all library folders of Proton - UMU-Proton-9.0-3!
+Missing undefined and/or undefined!
+Falling back to system libraries!
+(15:28:35) INFO:    [Winetricks]:       Running /home/arghya/.config/heroic/tools/winetricks fonts list
+(15:28:35) ERROR:   [Winetricks]:       Executing cd /home/arghya/.config/heroic/tools
+

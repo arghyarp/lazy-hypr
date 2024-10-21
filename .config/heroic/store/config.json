@@ -1,0 +1,26 @@
+{
+	"general-logs": {
+		"currentLogFile": "/home/arghya/.config/heroic/logs/2024-10-09T09_55_29-heroic.log",
+		"lastLogFile": "",
+		"legendaryLogFile": "/home/arghya/.config/heroic/logs/2024-10-09T09_55_29-legendary.log",
+		"gogdlLogFile": "/home/arghya/.config/heroic/logs/2024-10-09T09_55_29-gogdl.log",
+		"nileLogFile": "/home/arghya/.config/heroic/logs/2024-10-09T09_55_29-nile.log"
+	},
+	"userHome": "/home/arghya",
+	"language": "en",
+	"games": {
+		"recent": [
+			{
+				"appName": "hNgYphFFXZgbNaK3pqaRQz",
+				"title": "Title"
+			}
+		]
+	},
+	"window-props": {
+		"x": 0,
+		"y": 27,
+		"width": 1920,
+		"height": 1052,
+		"maximized": false
+	}
+}

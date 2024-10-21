@@ -1,0 +1,37 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-PTSTU2.desktop
+x-scheme-handler/https=userapp-Firefox-PTSTU2.desktop
+x-scheme-handler/chrome=userapp-Firefox-PTSTU2.desktop
+text/html=userapp-Firefox-PTSTU2.desktop
+application/x-extension-htm=userapp-Firefox-PTSTU2.desktop
+application/x-extension-html=userapp-Firefox-PTSTU2.desktop
+application/x-extension-shtml=userapp-Firefox-PTSTU2.desktop
+application/xhtml+xml=userapp-Firefox-PTSTU2.desktop
+application/x-extension-xhtml=userapp-Firefox-PTSTU2.desktop
+application/x-extension-xht=userapp-Firefox-PTSTU2.desktop
+video/x-matroska=mpv.desktop
+x-scheme-handler/fdm=freedownloadmanager_fdm_up.desktop
+image/jpeg=com.interversehq.qView.desktop
+video/mp4=mpv.desktop
+text/plain=neovide.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+x-scheme-handler/https=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+x-scheme-handler/chrome=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+text/html=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+application/x-extension-htm=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+application/x-extension-html=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+application/x-extension-shtml=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+application/xhtml+xml=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+application/x-extension-xhtml=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+application/x-extension-xht=userapp-Firefox-IYRVU2.desktop;userapp-Firefox-PTSTU2.desktop;
+video/x-matroska=mpv.desktop;
+application/octet-stream=org.qbittorrent.qBittorrent.desktop;
+image/jpeg=localsend.desktop;com.interversehq.qView.desktop;
+application/x-bittorrent=org.qbittorrent.qBittorrent.desktop;
+video/mp4=mpv.desktop;
+application/vnd.rar=xarchiver.desktop;
+application/x-msdownload=wine.desktop;
+application/xml=org.gnome.gitlab.cheywood.Buffer.desktop;com.github.tenderowl.norka.desktop;
+text/plain=neovide.desktop;org.gnome.gitlab.cheywood.Buffer.desktop;

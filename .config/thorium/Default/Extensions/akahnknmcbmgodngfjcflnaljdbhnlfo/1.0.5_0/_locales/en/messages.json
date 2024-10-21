@@ -1,0 +1,212 @@
+{
+   "actionTitle": {
+      "message": "Open Vertical Tabs"
+   },
+   "closeConfirmCancel": {
+      "message": "Cancel"
+   },
+   "closeConfirmOk": {
+      "message": "OK"
+   },
+   "closeConfirmTitle": {
+      "message": "⚠️ $1 tabs will be closed!"
+   },
+   "extDescription": {
+      "message": "Display and manage tabs vertically in the browser sidebar."
+   },
+   "extName": {
+      "message": "Vertical Tabs in Side Panel"
+   },
+   "extShortName": {
+      "message": "Vertical Tabs"
+   },
+   "groupColorBlue": {
+      "message": "Blue"
+   },
+   "groupColorCyan": {
+      "message": "Cyan"
+   },
+   "groupColorGreen": {
+      "message": "Green"
+   },
+   "groupColorGrey": {
+      "message": "Grey"
+   },
+   "groupColorOrange": {
+      "message": "Orange"
+   },
+   "groupColorPink": {
+      "message": "Pink"
+   },
+   "groupColorPurple": {
+      "message": "Purple"
+   },
+   "groupColorRed": {
+      "message": "Red"
+   },
+   "groupColorYellow": {
+      "message": "Yellow"
+   },
+   "groupNamePlaceholder": {
+      "message": "Name This Group"
+   },
+   "guideBrowserC1": {
+      "message": "Browser Settings → Appearance → Side panel"
+   },
+   "guideBrowserHead": {
+      "message": "Set the position of the sidebar: left or right:"
+   },
+   "guideHowC1": {
+      "message": "Single Click: switch to the tab."
+   },
+   "guideHowC2": {
+      "message": "Double Click: close the tab."
+   },
+   "guideHowC3": {
+      "message": "Right Click: functions such as closing, pinning, and duplicating the tab."
+   },
+   "guideHowC4": {
+      "message": "Drag Up or Down: move the position of the tab."
+   },
+   "guideHowC5": {
+      "message": "Bottom Toolbar: search tabs."
+   },
+   "guideHowC6": {
+      "message": "Middle Click: close the tab."
+   },
+   "guideHowHead": {
+      "message": "How to use the extension:"
+   },
+   "guideOpenC1": {
+      "message": "Click the Extension icon. You need to Pin the extension to the browser toolbar."
+   },
+   "guideOpenC2_1": {
+      "message": "Use shortcut keys. Please set it at"
+   },
+   "guideOpenC2_2": {
+      "message": "by yourself, the default is Alt+V ."
+   },
+   "guideOpenHead": {
+      "message": "Three Ways to Open the Extension Sidebar:"
+   },
+   "menuAddToGroup": {
+      "message": "Add Tab to New Group"
+   },
+   "menuCloseGroup": {
+      "message": "Close This Group"
+   },
+   "menuCloseLeft": {
+      "message": "Close Tabs Above ⤒"
+   },
+   "menuCloseOther": {
+      "message": "Close Other Tabs"
+   },
+   "menuCloseRight": {
+      "message": "Close Tabs Below ⤓"
+   },
+   "menuCloseThis": {
+      "message": "Close This Tab"
+   },
+   "menuDuplicate": {
+      "message": "Duplicate"
+   },
+   "menuGroupToNewWindow": {
+      "message": "Move Group to New Window"
+   },
+   "menuMute": {
+      "message": "Mute"
+   },
+   "menuNewTabInGroup": {
+      "message": "New Tab in Group"
+   },
+   "menuNewTabRight": {
+      "message": "New Tab to the Right"
+   },
+   "menuPin": {
+      "message": "Pin"
+   },
+   "menuReload": {
+      "message": "Reload"
+   },
+   "menuRemoveFromGroup": {
+      "message": "Remove Tab From Group"
+   },
+   "menuTabToNewWindow": {
+      "message": "Move Tab to New Window"
+   },
+   "menuUngroup": {
+      "message": "Ungroup"
+   },
+   "menuUnmute": {
+      "message": "Unmute"
+   },
+   "menuUnpin": {
+      "message": "Unpin"
+   },
+   "searchNoResults": {
+      "message": "No Results Found"
+   },
+   "searchPlaceholder": {
+      "message": "Search Tabs"
+   },
+   "searchResultHeader": {
+      "message": "Search Results"
+   },
+   "settingAbout": {
+      "message": "About"
+   },
+   "settingAtBottom": {
+      "message": "at the bottom"
+   },
+   "settingAtTop": {
+      "message": "at the top"
+   },
+   "settingCancel": {
+      "message": "Cancel"
+   },
+   "settingCloseByDoubleClick": {
+      "message": "Double-Click to Close the Tab"
+   },
+   "settingDonate": {
+      "message": "Donate"
+   },
+   "settingFontSize": {
+      "message": "Font Size"
+   },
+   "settingFontSizeNormal": {
+      "message": "normal"
+   },
+   "settingFontSizeSmall": {
+      "message": "small"
+   },
+   "settingNewtab": {
+      "message": "Show New Tab Button"
+   },
+   "settingRate": {
+      "message": "Rate It"
+   },
+   "settingSave": {
+      "message": "Save"
+   },
+   "settingSearch": {
+      "message": "Search Box"
+   },
+   "settingSettings": {
+      "message": "Settings"
+   },
+   "settingSidebarPosition": {
+      "message": "Sidebar Position"
+   },
+   "settingSidebarPositionLink": {
+      "message": "Left | Right"
+   },
+   "settingSidebarShortcut": {
+      "message": "Sidebar Shortcut"
+   },
+   "settingSidebarShortcutLink": {
+      "message": "Activation"
+   },
+   "settingWebsite": {
+      "message": "Website"
+   }
+}

@@ -97,10 +97,18 @@
     },
     {
         "fallback": false,
+        "iconPath": ":default",
+        "id": "bf4997d8",
+        "name": "Perplexity",
+        "trigger": "p",
+        "url": "https://www.perplexity.ai/search/new?q=%s"
+    },
+    {
+        "fallback": false,
         "iconPath": ":youtube",
         "id": "291d5479",
         "name": "YouTube",
-        "trigger": "yt",
+        "trigger": "y",
         "url": "https://www.youtube.com/results?search_query=%s"
     }
 ]

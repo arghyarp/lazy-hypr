@@ -1,0 +1,80 @@
+Launching "Title" (sideload)
+Native? No
+Installed in: /home/arghya/KING-GAMES/Silent Hill 2 Remake/SILENT HILL 2
+
+System Info:
+CPU: 16x AMD Ryzen 7 5800HS with Radeon Graphics
+Memory: 16.14 GB (used: 5.05 GB)
+GPUs:
+  GPU 0:
+    Name: Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]
+    IDs: D=1638 V=1002 SD=150c SV=1043
+    Driver: amdgpu
+  GPU 1:
+    Name: NVIDIA Corporation TU117M [GeForce GTX 1650 Mobile / Max-Q]
+    IDs: D=1f9d V=10de SD=150c SV=1043
+    Driver: nvidia
+OS: Arch Linux 6.11.2-zen1-1-zen (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallDxvkNvapi": false,
+	"autoInstallVkd3d": true,
+	"preferSystemLibs": false,
+	"enableEsync": true,
+	"enableMsync": false,
+	"enableFsync": true,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"showFps": false,
+	"useGameMode": false,
+	"battlEyeRuntime": true,
+	"eacRuntime": true,
+	"language": "",
+	"beforeLaunchScriptPath": "",
+	"afterLaunchScriptPath": "",
+	"wineVersion": {
+		"bin": "/home/arghya/.local/share/Steam/compatibilitytools.d/UMU-Proton-9.0-3/proton",
+		"name": "Proton - UMU-Proton-9.0-3",
+		"type": "proton"
+	},
+	"winePrefix": "/home/arghya/Games/Heroic/Prefixes/default/Title",
+	"wineCrossoverBottle": ""
+}
+
+Game launched at: Wed Oct 09 2024 15:27:58 GMT+0530 (India Standard Time)
+
+Winetricks packages: 
+
+[34mProtonFixes[55315] INFO: Running protonfixes[0m
+[34mProtonFixes[55315] INFO: Running checks[0m
+[34mProtonFixes[55315] INFO: All checks successful[0m
+[34mProtonFixes[55315] INFO: Using global defaults for UNKNOWN (0)[0m
+[34mProtonFixes[55315] INFO: No global protonfix found for UNKNOWN (0)[0m
+wine: using kernel write watches, use_kernel_writewatch 1.
+fsync: up and running.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
+[S_API FAIL] SteamAPI_Init() failed
+wine: using kernel write watches, use_kernel_writewatch 1.
+============= End of log =============

@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_title": "__MSG_actionTitle__"
+   },
+   "author": "Guokai Han",
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Alt+V"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icon/icon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlvO2IEH7mI6vs6vyJPthReTm8h9r/XjkCjRys+SQWa3UsHKfp25ieAjZO3IjvAGsmzrULaFbbQK5gDFyv9iot7txyg67w5QVdfCvW9cy5T35f/HXGvmRBKU2Oy3nhnQijj1j70cuPgYkncIj8VGzH1TnpmrmvT1W9EAfYfRUU6TmN46Mkq/9RH/Njri+1IAcnOHeEncUVg7jOoW/pJFI11IDr49s5Lasn96jUuAFYqpXujpga53mJtqvdaQWwz+KDUElVXCcrMWmuc69c8s0+hlKmsoYrT20Cw8Olx0sep/yDdcywCXcgurFoOJDFG0Mo4gBgiqUDHLloCPCty9nDwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "114",
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "permissions": [ "tabs", "tabGroups", "favicon", "storage", "sidePanel" ],
+   "short_name": "__MSG_extShortName__",
+   "side_panel": {
+      "default_path": "sidepanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

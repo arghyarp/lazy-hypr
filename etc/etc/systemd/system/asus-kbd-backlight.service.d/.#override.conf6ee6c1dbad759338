@@ -1,0 +1,18 @@
+### Editing /etc/systemd/system/asus-kbd-backlight.service.d/override.conf
+### Anything between here and the comment below will become the contents of the drop-in file
+
+
+
+### Edits below this comment will be discarded
+
+
+### /usr/lib/systemd/system/asus-kbd-backlight.service
+# [Unit]
+# Description=Allow user access to keyboard backlight
+# After=systemd-udevd.service
+# 
+# [Service]
+# ExecStart=/usr/bin/asus-kbd-backlight allowusers
+# 
+# [Install]
+# WantedBy=multi-user.target

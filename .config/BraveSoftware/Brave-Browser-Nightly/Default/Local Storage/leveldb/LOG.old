@@ -1,0 +1,6 @@
+2024/10/10-09:45:30.545 4 Reusing MANIFEST /home/arghya/.config/BraveSoftware/Brave-Browser-Nightly/Default/Local Storage/leveldb/MANIFEST-000001
+2024/10/10-09:45:30.548 4 Recovering log #11
+2024/10/10-09:45:30.549 4 Reusing old log /home/arghya/.config/BraveSoftware/Brave-Browser-Nightly/Default/Local Storage/leveldb/000011.log 
+2024/10/10-09:54:07.110 4 Level-0 table #15: started
+2024/10/10-09:54:07.118 4 Level-0 table #15: 10222 bytes OK
+2024/10/10-09:54:07.123 4 Delete type=0 #11
